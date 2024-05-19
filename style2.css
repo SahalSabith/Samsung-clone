@@ -1,16 +1,226 @@
 #section3{
     width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr 1fr 1fr 1fr 1fr;
+    margin-top: 60px;
+}
+#imgdiv{
+    grid-column: 1/6;
+    grid-row: 1/7;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: fit-content;
 }
-#imgdiv{
-    margin-top: 50px;
+#mobile{
+    font-family: Arial, Helvetica, sans-serif;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
 }
-#contentdiv{
-    position: absolute;
+#modelscolumns{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1.7fr 0.7fr 0.8fr 0.7fr 1.5fr;
+    grid-template-rows: 1fr;
+    grid-column: 1/6;
+    grid-row: 2/3;
+    gap: 20px;
+}
+#mobmodel1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    grid-column: 1/2;
+}
+#mobmodel2{
+    font-family: Arial, Helvetica, sans-serif;
+    grid-column: 2/3;
+}
+#mobmodel3{
+    font-family: Arial, Helvetica, sans-serif;
+    grid-column: 3/4;
+}
+#mobmodel4{
+    font-family: Arial, Helvetica, sans-serif;
+    grid-column: 4/5;
+}
+#mobmodel5{
+    font-family: Arial, Helvetica, sans-serif;
+    grid-column: 5/6;
+}
+#modul1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#modul2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#modul3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#modul4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#modul5{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#mainmodel{
+    grid-row: 5/6;
+    grid-column: 2/5;
+    font-size: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+}
+#modulelaste{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.4fr 0.4fr;
+    grid-column: 1/6;
+    grid-row: 6/7;
+}
+#lastcon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-column: 2/4;
+    grid-row: 1/2;
+    color: grey;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+#btncon{
+    grid-column: 2/4;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}#btncon h3{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    font-size: 17px;
+}
+#btncon button{
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    margin-left: 20px;
+    border: none;
+}
+#section4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.6fr 0.4fr 2fr 1fr 0.8fr;
+    width: 100%;
+    gap: 20px;
+}
+#imgdiv2{
+    grid-column: 1/4;
+    grid-row: 1/6;
+    display: flex;
+    justify-content: center;
+}
+#tvcon{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    font-size: 30px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+}
+#tvheadings{
+    display: grid;
+    grid-template-columns: 1fr 0.4fr 0.5fr 0.2fr 0.4fr 0.5fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column: 1/4;
+    grid-row: 2/3;
+    gap: 20px;
+}
+#tvcon1{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    font-family: sans-serif;
+    text-decoration: underline;
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-end;
+}
+#tvcon2{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    font-family: sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+#tvcon3{
+    grid-column: 4/5;
+    grid-row: 1/2;
+    font-family: sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+#tvcon4{
+    grid-column: 5/6;
+    grid-row: 1/2;
+    font-family: sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+#tvcon5{
+    grid-column: 6/7;
+    grid-row: 1/2;
+    font-family: sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-start;
+}
+#tvlast{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    grid-column: 1/4;
+    grid-row: 5/6;
+}
+#tvlast1{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 33px;
+    font-family: sans-serif;
+}
+#tvlastbtn{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+}
+#tvlastbtn button{
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    margin-left: 20px;
+    border: none;
 }
