@@ -1,0 +1,123 @@
+#section8{
+    width: 100%;
+    height: 900px;
+}
+.enddiv{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.enddiv h1{
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.enddiv input{
+    width: 380px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgba(128, 128, 128, 0.148);
+    border: 0.8px solid rgba(0, 0, 0, 0.426);
+    margin-top: 40px;
+    padding-left: 70px;
+    
+}
+#search2{
+    position: absolute;
+    top:5775px;
+    right: 935px;
+    width: 20px;
+    height: 20px;
+}
+.shortbtns{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.shortbtns button{
+    width: 120px;
+    height: 33px;
+    border-radius: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.337);
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.paragraphs{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.paragraphs p{
+margin-top: 20px;
+}
+.pcontainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+#lastsection{
+    width: 100%;
+    height: 770px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 7fr 1fr 1fr;
+}
+.contsection1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: sans-serif;
+    flex-direction: column;
+}
+#lastsection li{
+    list-style: none;
+    margin: 10px;
+    font-size: 14px;
+}
+#lastsection h3{
+    margin-left: 50px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+.contsection2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: sans-serif;
+    flex-direction: column;
+}
+.contsection3{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: sans-serif;
+    flex-direction: column;
+}
+.contsection4{
+    grid-column: 4/5;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: sans-serif;
+    flex-direction: column;
+}
+.contsection5{
+    grid-column: 5/6;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: sans-serif;
+    flex-direction: column;
+}
