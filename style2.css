@@ -122,20 +122,20 @@
     margin-left: 20px;
     border: none;
 }
-#section4{
+.section4{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 0.6fr 0.4fr 2fr 1fr 0.8fr;
     width: 100%;
     gap: 20px;
 }
-#imgdiv2{
+.imgdiv2{
     grid-column: 1/4;
     grid-row: 1/6;
     display: flex;
     justify-content: center;
 }
-#tvcon{
+.tvcon{
     grid-column: 2/3;
     grid-row: 1/2;
     font-size: 30px;
@@ -144,15 +144,15 @@
     justify-content: center;
     align-items: last baseline;
 }
-#tvheadings{
+.tvheadings{
     display: grid;
-    grid-template-columns: 1fr 0.4fr 0.5fr 0.2fr 0.4fr 0.5fr 1fr;
+    grid-template-columns: 1fr 0.7fr 0.9fr 0.5fr 0.9fr 0.8fr 1fr;
     grid-template-rows: 1fr;
     grid-column: 1/4;
     grid-row: 2/3;
     gap: 20px;
 }
-#tvcon1{
+.tvcon1{
     grid-column: 2/3;
     grid-row: 1/2;
     font-family: sans-serif;
@@ -161,7 +161,7 @@
     display: flex;
     justify-content: flex-end;
 }
-#tvcon2{
+.tvcon2{
     grid-column: 3/4;
     grid-row: 1/2;
     font-family: sans-serif;
@@ -169,7 +169,7 @@
     display: flex;
     justify-content: center;
 }
-#tvcon3{
+.tvcon3{
     grid-column: 4/5;
     grid-row: 1/2;
     font-family: sans-serif;
@@ -177,7 +177,7 @@
     display: flex;
     justify-content: center;
 }
-#tvcon4{
+.tvcon4{
     grid-column: 5/6;
     grid-row: 1/2;
     font-family: sans-serif;
@@ -185,7 +185,7 @@
     display: flex;
     justify-content: center;
 }
-#tvcon5{
+.tvcon5{
     grid-column: 6/7;
     grid-row: 1/2;
     font-family: sans-serif;
@@ -193,29 +193,7 @@
     display: flex;
     justify-content: flex-start;
 }
-#tvlast{
-    display: grid;
-    grid-template-columns:1fr 1fr 1fr ;
-    grid-template-rows: 1fr 1fr;
-    grid-column: 1/4;
-    grid-row: 5/6;
-}
-#tvlast1{
-    grid-column: 2/3;
-    grid-row: 1/2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 33px;
-    font-family: sans-serif;
-}
-#tvlastbtn{
-    grid-column: 2/3;
-    grid-row: 2/3;
-    display: flex;
-    justify-content: center;
-}
-#tvlastbtn button{
+.tvlastbtn button{
     width: 100px;
     height: 40px;
     background-color: black;
