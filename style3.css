@@ -232,11 +232,75 @@ display: flex;
     grid-row: 2/3;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1.5fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr;
 }
 .rowcon1{
+    font-family: sans-serif;
+    font-size: 25px;
+    grid-row: 1/2;
+    border-top: 3px solid black;
+}
+.rowcon1 h4{
+    margin-right: 50px;
+    font-size: 18px;
+}
+#lastlink{
     display: flex;
-    justify-content: center;
+    align-items: last baseline;
+    height: 50px;
+}
+#lastlink a{
+    text-decoration: underline;
+    color: black;
+    font-size: 16px;font-family: Arial, Helvetica, sans-serif;
+    margin-left: 73px;
+}
+#headlast{
+    display: flex;
+    justify-content: flex-start;
     align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
+
+}
+.headlast{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.rowcon2{
+    font-family: sans-serif;
+    font-size: 25px;
+    grid-row: 2/3;
+    border-top: 0.8px solid rgba(0, 0, 0, 0.527);
+}
+.rowcon2 h4{
+    margin-right: 50px;
+    font-size: 18px;
+}
+.rowcon3{
+    font-family: sans-serif;
+    font-size: 25px;
+    grid-row: 3/4;
+}
+.rowcon3 h4{
+    margin-right: 50px;
+    font-size: 18px;
+}
+.rowcon4{
+    font-family: sans-serif;
+    font-size: 25px;
+    grid-row: 4/5;
+}
+.rowcon4 h4{
+    margin-right: 50px;
+    font-size: 18px;
+}
+.rowcon5{
+    font-family: sans-serif;
+    font-size: 25px;
+    grid-row: 5/6;
+}
+.rowcon5 h4{
+    margin-right: 50px;
+    font-size: 18px;
 }
